@@ -1,0 +1,630 @@
+[
+    {
+        "Body": [
+            {
+                "Body type": [
+                    "Male",
+                    "Female",
+                    "Teen",
+                    "Child",
+                    "Pregnant",
+                    "Muscular"
+                ]
+            },
+            {
+                "Shadow": [
+                    "No shadow",
+                    "shadow"
+                ]
+            },
+            {
+                "Body color": [
+                    "No body",
+                    "light",
+                    "amber",
+                    "olive",
+                    "taupe",
+                    "bronze",
+                    "brown",
+                    "black",
+                    "lavender",
+                    "blue"
+                ]
+            },
+            {
+                "Special": [
+                    "No body",
+                    "zombie",
+                    "No body",
+                    "skeleton"
+                ]
+            },
+            {
+                "Wounds": [
+                    "No wound_arm",
+                    "arm",
+                    "No wound_brain",
+                    "brain",
+                    "No wound_ribs",
+                    "ribs",
+                    "No wound_eye",
+                    "eye",
+                    "No wound_mouth",
+                    "mouth"
+                ]
+            },
+            {
+                "Prostheses": [
+                    "No prosthesis_hand",
+                    "hook",
+                    "No prosthesis_leg",
+                    "peg_leg"
+                ]
+            },
+            {
+                "Lizard": [
+                    "No wings",
+                    "light",
+                    "amber",
+                    "olive",
+                    "taupe",
+                    "bronze",
+                    "brown",
+                    "black",
+                    "lavender",
+                    "blue"
+                ]
+            }
+        ]
+    },
+    {
+        "Head": [
+            {
+                "Heads": [
+                    "No head",
+                    "light",
+                    "amber",
+                    "olive",
+                    "taupe",
+                    "bronze",
+                    "brown",
+                    "black",
+                    "lavender",
+                    "blue"
+                ]
+            },
+            {
+                "Ears": [
+                    "No ears",
+                    "light",
+                    "amber",
+                    "olive",
+                    "taupe",
+                    "bronze",
+                    "brown",
+                    "black",
+                    "lavender",
+                    "blue"
+                ]
+            },
+            {
+                "Nose": [
+                    "No nose",
+                    "light",
+                    "amber",
+                    "olive",
+                    "taupe",
+                    "bronze",
+                    "brown",
+                    "black",
+                    "lavender",
+                    "blue"
+                ]
+            },
+            {
+                "Eyes": [
+                    "No eyes",
+                    "blue",
+                    "brown",
+                    "gray",
+                    "green",
+                    "orange",
+                    "purple",
+                    "red",
+                    "yellow",
+                    "cyclope"
+                ]
+            },
+            {
+                "Wrinkles": [
+                    "No wrinkes",
+                    "light",
+                    "amber",
+                    "olive",
+                    "taupe",
+                    "bronze",
+                    "brown",
+                    "black",
+                    "lavender",
+                    "blue"
+                ]
+            },
+            {
+                "Beards": [
+                    "No beard",
+                    "black",
+                    "blonde",
+                    "blonde 2",
+                    "blue",
+                    "blue 2",
+                    "brown",
+                    "brunette",
+                    "brunette 2",
+                    "darkblonde"
+                ]
+            },
+            {
+                "Hair": [
+                    "No hair",
+                    "blonde",
+                    "ash",
+                    "sandy",
+                    "platinum",
+                    "strawberry",
+                    "redhead",
+                    "ginger",
+                    "carrot",
+                    "chestnut"
+                ]
+            },
+            {
+                "Appendages": [
+                    "No horns",
+                    "horns",
+                    "No horns",
+                    "horns",
+                    "No fins",
+                    "light",
+                    "amber",
+                    "olive",
+                    "taupe",
+                    "bronze"
+                ]
+            },
+            {
+                "Head coverings": [
+                    "No bandana",
+                    "black",
+                    "blue",
+                    "bluegray",
+                    "brown",
+                    "charcoal",
+                    "forest",
+                    "gray",
+                    "green",
+                    "lavender"
+                ]
+            },
+            {
+                "Hats and Helmets": [
+                    "No hat",
+                    "round",
+                    "black",
+                    "brown",
+                    "No hat",
+                    "bandana red",
+                    "fin blue",
+                    "fin dark",
+                    "fin light",
+                    "hood"
+                ]
+            },
+            {
+                "Accessories": [
+                    "No facial",
+                    "glasses",
+                    "mask dark",
+                    "mask white",
+                    "monocle",
+                    "patch",
+                    "sunglasses",
+                    "No eyepatch",
+                    "eyepatch",
+                    "No earring"
+                ]
+            },
+            {
+                "Neck": [
+                    "No neck",
+                    "bow",
+                    "neck",
+                    "No neck",
+                    "black",
+                    "blue",
+                    "brown",
+                    "gray",
+                    "red",
+                    "white"
+                ]
+            }
+        ]
+    },
+    {
+        "Arms": [
+            {
+                "Shoulders": [
+                    "No shoulders",
+                    "bronze",
+                    "steel",
+                    "gold",
+                    "No shoulders",
+                    "steel",
+                    "iron",
+                    "ceramic",
+                    "brass",
+                    "copper"
+                ]
+            },
+            {
+                "Armour": [
+                    "No arms",
+                    "steel",
+                    "iron",
+                    "ceramic",
+                    "brass",
+                    "copper",
+                    "bronze",
+                    "silver",
+                    "gold"
+                ]
+            },
+            {
+                "Bauldron": [
+                    "No bauldron",
+                    "brown",
+                    "charcoal",
+                    "leather",
+                    "slate",
+                    "tan",
+                    "walnut",
+                    "white"
+                ]
+            },
+            {
+                "Wrists": [
+                    "No bracers",
+                    "steel",
+                    "iron",
+                    "ceramic",
+                    "brass",
+                    "copper",
+                    "bronze",
+                    "silver",
+                    "gold",
+                    "No wrists"
+                ]
+            },
+            {
+                "Gloves": [
+                    "No gloves",
+                    "brass",
+                    "bronze",
+                    "ceramic",
+                    "copper",
+                    "gold",
+                    "iron",
+                    "silver",
+                    "steel",
+                    "black"
+                ]
+            }
+        ]
+    },
+    {
+        "Torso": [
+            {
+                "Dresses": [
+                    "No dress",
+                    "black",
+                    "blue",
+                    "bluegray",
+                    "brown",
+                    "charcoal",
+                    "forest",
+                    "gray",
+                    "green",
+                    "lavender"
+                ]
+            },
+            {
+                "Shirts": [
+                    "No clothes",
+                    "black",
+                    "blue",
+                    "brown",
+                    "gray",
+                    "green",
+                    "lavender",
+                    "lightblue",
+                    "pink",
+                    "red"
+                ]
+            },
+            {
+                "Aprons": [
+                    "No overalls",
+                    "leather",
+                    "black",
+                    "blue",
+                    "bluegray",
+                    "brown",
+                    "charcoal",
+                    "forest",
+                    "gray",
+                    "green"
+                ]
+            },
+            {
+                "Bandages": [
+                    "No bandages",
+                    "white"
+                ]
+            },
+            {
+                "Chainmail": [
+                    "No chainmail",
+                    "gray"
+                ]
+            },
+            {
+                "Jacket": [
+                    "No jacket",
+                    "brown striped",
+                    "black",
+                    "blue",
+                    "bluegray",
+                    "brown",
+                    "charcoal",
+                    "forest",
+                    "gray",
+                    "green"
+                ]
+            },
+            {
+                "Vest": [
+                    "No vest",
+                    "gray striped",
+                    "green striped",
+                    "black",
+                    "blue",
+                    "bluegray",
+                    "brown",
+                    "charcoal",
+                    "forest",
+                    "gray"
+                ]
+            },
+            {
+                "Armour": [
+                    "No armour",
+                    "steel",
+                    "iron",
+                    "ceramic",
+                    "brass",
+                    "copper",
+                    "bronze",
+                    "silver",
+                    "gold",
+                    "No armour"
+                ]
+            },
+            {
+                "Cape": [
+                    "No cape",
+                    "black",
+                    "blue",
+                    "bluegray",
+                    "brown",
+                    "charcoal",
+                    "forest",
+                    "gray",
+                    "green",
+                    "lavender"
+                ]
+            },
+            {
+                "Waist": [
+                    "No belt",
+                    "brown",
+                    "charcoal",
+                    "leather",
+                    "slate",
+                    "tan",
+                    "walnut",
+                    "white",
+                    "No belt",
+                    "brown"
+                ]
+            },
+            {
+                "Buckles": [
+                    "No buckles",
+                    "bronze",
+                    "gold",
+                    "iron",
+                    "silver"
+                ]
+            }
+        ]
+    },
+    {
+        "Legs": [
+            {
+                "Legs": [
+                    "No legs",
+                    "steel",
+                    "iron",
+                    "ceramic",
+                    "brass",
+                    "copper",
+                    "bronze",
+                    "silver",
+                    "gold",
+                    "No legs"
+                ]
+            },
+            {
+                "Boots": [
+                    "No shoes",
+                    "black",
+                    "blue",
+                    "bluegray",
+                    "brown",
+                    "charcoal",
+                    "forest",
+                    "gray",
+                    "green",
+                    "lavender"
+                ]
+            },
+            {
+                "Shoes": [
+                    "No shoes",
+                    "steel",
+                    "iron",
+                    "ceramic",
+                    "brass",
+                    "copper",
+                    "bronze",
+                    "silver",
+                    "gold",
+                    "No shoes"
+                ]
+            }
+        ]
+    },
+    {
+        "Tools": [
+            {
+                "Rod": [
+                    "No weapon",
+                    "rod"
+                ]
+            },
+            {
+                "Smash": [
+                    "No weapon",
+                    "axe",
+                    "hammer",
+                    "pickaxe"
+                ]
+            },
+            {
+                "Thrust": [
+                    "No weapon",
+                    "hoe",
+                    "shovel",
+                    "watering"
+                ]
+            },
+            {
+                "Whip": [
+                    "No weapon",
+                    "whip"
+                ]
+            }
+        ]
+    },
+    {
+        "Weapons": [
+            {
+                "Shield": [
+                    "No shield",
+                    "crusader",
+                    "spartan",
+                    "round black",
+                    "round brown",
+                    "round gold",
+                    "round green",
+                    "round silver",
+                    "round yellow",
+                    "kite blue blue"
+                ]
+            },
+            {
+                "Quiver": [
+                    "No quiver",
+                    "quiver"
+                ]
+            },
+            {
+                "Ranged": [
+                    "No weapon",
+                    "crossbow",
+                    "No weapon",
+                    "slingshot",
+                    "No weapon",
+                    "boomerang",
+                    "No ammo",
+                    "arrow",
+                    "No weapon",
+                    "light"
+                ]
+            },
+            {
+                "Sword": [
+                    "No weapon",
+                    "dagger",
+                    "No weapon",
+                    "blue",
+                    "red",
+                    "No weapon",
+                    "longsword",
+                    "No weapon",
+                    "rapier",
+                    "No weapon"
+                ]
+            },
+            {
+                "Blunt": [
+                    "No weapon",
+                    "flail",
+                    "No weapon",
+                    "mace",
+                    "No weapon",
+                    "waraxe",
+                    "No weapon",
+                    "club"
+                ]
+            },
+            {
+                "Polearm": [
+                    "No weapon",
+                    "cane",
+                    "No weapon",
+                    "medium",
+                    "light",
+                    "red",
+                    "dark",
+                    "brass",
+                    "bronze",
+                    "ceramic"
+                ]
+            },
+            {
+                "Magic": [
+                    "No weapon",
+                    "simple",
+                    "No weapon",
+                    "medium",
+                    "light",
+                    "red",
+                    "dark",
+                    "brass",
+                    "bronze",
+                    "ceramic"
+                ]
+            }
+        ]
+    }
+]
