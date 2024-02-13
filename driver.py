@@ -24,15 +24,18 @@ name: the name of the file/directory you choose.
 
 Good luck!
 
-Do not choose any COMPLETE files! Do not choose .xcf files! You do not HAVE to choose something. If nothing is relevant, pass the empty string in [name]
+Do not choose any COMPLETE files! Do not choose .xcf files! You do not HAVE to choose something. If nothing is relevant, pass the the string '..' in [name]
 If there are numbered files with no description, choose one at random!
 """)
 
 
 
-def build_spritesheet(tree, path, selected=set(), description=""):
-    model = ChatOpenAI(model="gpt-4")
-    choose_chain = LLMChain(llm=model, prompt=choose_prompt)
+
+model = ChatOpenAI(model="gpt-4")
+choose_chain = LLMChain(llm=model, prompt=choose_prompt)
+
+def build_spritesheet(tree, path, parent=None, selected=[], description=""):
+    #:path = stack representing path to a sprite file
     if tree is None:    return
     contents = "\n".join([json.dumps({'name': key, 'is_dir': tree[key] is not None}) for key in list(tree.keys())])
     decision = json.loads(choose_chain.run(
@@ -43,18 +46,25 @@ def build_spritesheet(tree, path, selected=set(), description=""):
     assert('is_dir' in list(decision.keys()) and 'name' in list(decision.keys()))
     is_dir = decision.get('is_dir')
     fpath = decision.get('name')
-    if is_dir:   build_spritesheet(tree[fpath], path+"/"+fpath, selected, description)
-    else:       selected.add(path+"/"+fpath)
+    if is_dir and fpath!='..' and fpath!='. .':      build_spritesheet(tree[fpath], path+[fpath], tree, selected, description)
+    if is_dir and fpath == '..':    
+        if path: parent = path.pop()
+        if parent in tree and path:  del parent[tree]
+        build_spritesheet(tree, path, selected, description)
+    else:
+        try:    selected.append(path+[fpath])
+        except: print(path, fpath)
+
 
 def img_create(description):
     d = read_directory_into_dict("./spritesheets")
-    s = set()
+    s = []
     for k in list(d.keys()):
-        build_spritesheet(d[k], os.getcwd()+"/spritesheets/"+k, s, description)
-    print(s)
+        build_spritesheet(d[k], [os.getcwd(),"spritesheets",k], d, s,  description)
     canvas_size = (832, 1344)
     base_image = Image.new('RGBA', canvas_size)
     for img in s:
+        img = "/".join(img)
         if not ".png" in img:   continue
         new_img = Image.open(img)
         if new_img.mode != 'RGBA':  new_img = new_img.convert('RGBA')

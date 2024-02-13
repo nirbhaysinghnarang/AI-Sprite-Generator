@@ -58,4 +58,4 @@ for root in roots:
 
 filename = 'schema.json'
 with open(filename, 'w') as file:
-    json.dump(schema, file, indent=4)
+    json.dumps(schema, file, indent=4)
